@@ -7,6 +7,7 @@ $(document).ready(function(){
  
 });
  
+ 
 function success(position)
 {
    $("p").html("Latitude: "+position.coords.latitude+
